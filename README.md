@@ -7,7 +7,7 @@ Welcome to the ThunderHack Recode Addon Template! This template serves as a star
 To begin developing your addon, follow these steps:
 
 1. **Clone this repository**: Use `git clone` to download this template to your local environment.
-2. **Customize the Template**: Rename the package and modify the provided example classes to fit your addon's needs. Implement the `IAddon` interface methods to define your addon's behavior.
+2. **Customize the Template**: Rename the package and modify the provided example classes to fit your addon's needs. 
 3. **Build Your Addon**: Compile your addon using Gradle. The build script is pre-configured for your convenience.
 4. **Test Your Addon**: Place the compiled `.jar` file into the `mods` folder of your Minecraft installation and launch the game to test your addon with ThunderHack.
 
@@ -15,7 +15,7 @@ To begin developing your addon, follow these steps:
 
 This template includes essential components to kickstart your addon development:
 
-- `src/main/java/thunder/hack/api/IAddon.java`: Defines the `IAddon` interface that your main addon class should implement.
+- `src/main/java/com/example/ExampleMod.java`: Defines the main class that your addon should use.
 - `src/main/resources/fabric.mod.json`: Contains mod metadata. Update this file with your addon's details, such as name, version, and description.
 
 ## Developing Your Addon

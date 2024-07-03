@@ -11,6 +11,7 @@ base {
 }
 
 repositories {
+	mavenCentral()
 	maven { url 'https://jitpack.io' }
 	maven {
 		name = "meteor-maven"
@@ -60,7 +61,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	implementation 'com.github.Pan4ur:ThunderHack-Recode:4c4d1a5512'
+	implementation 'com.github.Pan4ur:ThunderHack-Recode:c37468bbed'
 
 	configurations.libImpl.dependencies.each {
 		implementation(it)
