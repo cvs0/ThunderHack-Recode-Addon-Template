@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import thunder.hack.api.IAddon;
 import thunder.hack.cmd.Command;
-import thunder.hack.cmd.impl.ExampleCommand;
 import thunder.hack.modules.Module;
 
 import java.lang.reflect.Array;
