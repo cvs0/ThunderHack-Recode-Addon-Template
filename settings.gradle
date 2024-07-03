@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        maven { url 'https://maven.fabricmc.net/' }
+        maven { url 'https://jitpack.io' }
+        mavenCentral()
+    }
+}
