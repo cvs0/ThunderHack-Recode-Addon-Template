@@ -67,7 +67,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation 'com.github.Pan4ur:ThunderHack-Recode:782595f561'
+	modImplementation 'com.github.Pan4ur:ThunderHack-Recode:009c916461'
 	compileOnlyApi("org.apiguardian:apiguardian-api:1.1.2")
 	configurations.libImpl.dependencies.each {
 		implementation(it)

@@ -5,6 +5,6 @@ import thunder.hack.modules.Module;
 
 public class ExampleModule extends Module  {
     public ExampleModule() {
-        super("Example Module", Category.CLIENT);
+        super("Example Module", Category.getCategory("ExampleAddon"));
     }
 }
