@@ -15,13 +15,13 @@ import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
 public class ExampleCommand extends Command {
     public ExampleCommand() {
-        super("help");
+        super("example");
     }
 
     @Override
     public void executeBuild(@NotNull LiteralArgumentBuilder<CommandSource> builder) {
         builder.executes(context -> {
-            sendMessage("Commands: \n");
+            sendMessage("Hello World!");
 
             return SINGLE_SUCCESS;
         });
