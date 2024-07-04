@@ -1,12 +1,14 @@
 package com.example;
 
 import com.example.commands.ExampleCommand;
+import com.example.hud.ExampleHudElement;
 import com.example.modules.ExampleModule;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import thunder.hack.api.IAddon;
 import thunder.hack.cmd.Command;
+import thunder.hack.gui.hud.HudElement;
 import thunder.hack.modules.Module;
 
 import java.lang.reflect.Array;
@@ -30,6 +32,11 @@ public class ExampleMod implements IAddon {
 	@Override
 	public List<Command> getCommands() {
 		return Arrays.asList(new ExampleCommand());
+	}
+
+	@Override
+	public List<HudElement> getHudElements() {
+		return Arrays.asList(new ExampleHudElement());
 	}
 
 	@Override
