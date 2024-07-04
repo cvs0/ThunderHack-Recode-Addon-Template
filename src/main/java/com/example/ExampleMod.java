@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.commands.ExampleCommand;
 import com.example.modules.ExampleModule;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -28,7 +29,7 @@ public class ExampleMod implements IAddon {
 
 	@Override
 	public List<Command> getCommands() {
-		return null;
+		return Arrays.asList(new ExampleCommand());
 	}
 
 	@Override

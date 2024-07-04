@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
-public abstract class ExampleCommand extends Command {
+public class ExampleCommand extends Command {
     public ExampleCommand() {
         super("help");
     }
