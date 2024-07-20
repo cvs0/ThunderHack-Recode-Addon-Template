@@ -15,8 +15,8 @@ To begin developing your addon, follow these steps:
 
 This template includes essential components to kickstart your addon development:
 
-- `src/main/java/com/example/ExampleMod.java`: Defines the main class that your addon should use.
-- `src/main/resources/fabric.mod.json`: Contains mod metadata. Update this file with your addon's details, such as name, version, and description.
+- `src/client/java/com/example/ExampleMod.java`: Defines the main class that your addon should use.
+- `src/client/resources/fabric.mod.json`: Contains mod metadata. Update this file with your addon's details, such as name, version, and description.
 
 ## Developing Your Addon
 
