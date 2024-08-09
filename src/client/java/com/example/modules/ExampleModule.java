@@ -1,7 +1,7 @@
 package com.example.modules;
 
 import com.example.ExampleMod;
-import thunder.hack.modules.Module;
+import thunder.hack.features.modules.Module;
 
 public class ExampleModule extends Module  {
     public ExampleModule() {

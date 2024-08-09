@@ -7,7 +7,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import org.jetbrains.annotations.NotNull;
 import thunder.hack.ThunderHack;
-import thunder.hack.cmd.Command;
+import thunder.hack.features.cmd.Command;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

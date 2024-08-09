@@ -7,9 +7,9 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import thunder.hack.api.IAddon;
-import thunder.hack.cmd.Command;
-import thunder.hack.gui.hud.HudElement;
-import thunder.hack.modules.Module;
+import thunder.hack.features.cmd.Command;
+import thunder.hack.features.hud.HudElement;
+import thunder.hack.features.modules.Module;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -57,5 +57,10 @@ public class ExampleMod implements IAddon {
 	@Override
 	public String getRepo() {
 		return "https://github.com/cvs0/ThunderHack-Recode-Addon-Template";
+	}
+
+	@Override
+	public String getVersion() {
+		return "1.0.0";
 	}
 }

@@ -1,12 +1,10 @@
 package com.example.hud;
 
-import thunder.hack.gui.hud.HudElement;
-
+import thunder.hack.features.hud.HudElement;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import thunder.hack.gui.font.FontRenderers;
-import thunder.hack.gui.hud.HudElement;
-import thunder.hack.modules.client.HudEditor;
+import thunder.hack.features.modules.client.HudEditor;
 import thunder.hack.setting.Setting;
 import thunder.hack.utility.player.PlayerUtility;
 import thunder.hack.utility.render.Render2DEngine;
@@ -23,7 +21,7 @@ public class ExampleHudElement extends HudElement {
         super("Example Hud Element", 100, 10);
     }
 
-    private final Identifier icon = new Identifier("thunderhack", "textures/hud/icons/coords.png");
+    private final Identifier icon = Identifier.of("thunderhack", "textures/hud/icons/coords.png");
     private final Setting<NetherCoords> netherCoords = new Setting<>("NetherCoords", NetherCoords.On);
 
     private enum NetherCoords {
