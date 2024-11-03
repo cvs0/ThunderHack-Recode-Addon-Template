@@ -3,7 +3,6 @@ package com.example;
 import com.example.commands.ExampleCommand;
 import com.example.hud.ExampleHudElement;
 import com.example.modules.ExampleModule;
-import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import thunder.hack.api.IAddon;
@@ -11,7 +10,6 @@ import thunder.hack.features.cmd.Command;
 import thunder.hack.features.hud.HudElement;
 import thunder.hack.features.modules.Module;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
