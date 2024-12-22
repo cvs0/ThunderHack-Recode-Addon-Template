@@ -23,18 +23,17 @@ public class ExampleMod implements IAddon {
 
 	@Override
 	public List<Module> getModules() {
-		// Return a list of your modules here
-		return Arrays.asList(new ExampleModule());
+		return List.of(new ExampleModule());
 	}
 
 	@Override
 	public List<Command> getCommands() {
-		return Arrays.asList(new ExampleCommand());
+		return List.of(new ExampleCommand());
 	}
 
 	@Override
 	public List<HudElement> getHudElements() {
-		return Arrays.asList(new ExampleHudElement());
+		return List.of(new ExampleHudElement());
 	}
 
 	@Override
